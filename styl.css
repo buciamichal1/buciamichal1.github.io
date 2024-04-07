@@ -12,6 +12,9 @@
     width: auto;
     height: 9vh;
     border-bottom: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .last{
     border-bottom: 0px solid black;
@@ -35,5 +38,14 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-      
 }
+.category-img {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 3vh; /* Dodaj odstęp między obrazkiem a tekstem */
+    margin-left: 2vh;
+  }
+  
+  .category-text {
+    font-size: large;
+  }
