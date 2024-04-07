@@ -1,0 +1,39 @@
+.categories{
+    width: 0vh ;
+    height: auto;
+    border: 1px solid black;
+    visibility: hidden;
+    display: none;
+    top: 100%;
+    position: absolute;
+    background-color: silver;
+}
+.category{
+    width: auto;
+    height: 9vh;
+    border-bottom: 1px solid black;
+}
+.last{
+    border-bottom: 0px solid black;
+}
+header{
+    position: relative;
+    height: 5vh;
+    width: 100% ;
+    background-color: dimgray;
+}
+#menu{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(0,-50%);
+    height: 3vh;
+    width: 3vh;
+}
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    border: 0;
+      
+}
