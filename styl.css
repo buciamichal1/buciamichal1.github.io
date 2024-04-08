@@ -1,6 +1,9 @@
 .categories{
     width: 0vh ;
-    height: auto;
+    max-height: 100vh; /* Maksymalna wysokość kontenera kategorii */
+    overflow-y: auto;
+    overflow-x: hidden; 
+    scrollbar-width: none;
     border: 1px solid black;
     visibility: hidden;
     display: none;
@@ -44,8 +47,30 @@ body{
     height: 6vh;
     margin-right: 3vh; /* Dodaj odstęp między obrazkiem a tekstem */
     margin-left: 2vh;
-  }
+}
   
-  .category-text {
+.category-text {
     font-size: large;
-  }
+}
+.subcategories{
+    display: none;
+}
+.subcategory{
+    width: auto;
+    height: 0vh;
+    border-bottom: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: springgreen;
+}
+.subcategory-img {
+    width: 3vh;
+    height: 3vh;
+    margin-right: 3vh; /* Dodaj odstęp między obrazkiem a tekstem */
+    margin-left: 2vh;
+}
+  
+.subcategory-text {
+    font-size: medium;
+}
