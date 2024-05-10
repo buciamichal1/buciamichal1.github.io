@@ -10,6 +10,7 @@
     top: 100%;
     position: absolute;
     background-color: silver;
+    z-index: 100;
 }
 .category{
     width: auto;
@@ -18,9 +19,11 @@
     position: relative;
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 .last{
     border-bottom: 0px solid black;
+    z-index: 100;
 }
 header{
     position: relative;
@@ -73,4 +76,35 @@ body{
   
 .subcategory-text {
     font-size: medium;
+}
+.main-block{
+    width: auto;
+    height: auto;
+    z-index: 1;
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+.best-products, .new-products,.liked-products{
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    margin: 3vh;
+    padding: 2vh;
+    overflow: hidden;
+    display: flex;
+}
+.wrapped{
+    display: flex;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 25vh;
+    height: 35vh;
+    z-index: 3;
+    margin-right: 4vh;
+}
+.product-img{
+    padding:5vh;
 }
